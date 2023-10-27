@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <section id="signup">
+
+    <!-- Sign-up form start -->
+    <div id="signup-img-mobile" class="img-signup">
+      <img src="./assets/images/illustration-sign-up-mobile.svg">
+    </div>
+
+      <div id="signup-img-desktop" class="img-signup">
+          <img src="./assets/images/illustration-sign-up-desktop.svg">
+      </div>
+
+      <div id="stay">
+          <div id="stay-title">
+              <h1>Stay updated!</h1>
+          </div>
+
+          <div id="stay-desc">
+              <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+              <ul>
+                  <li>Product discovery and building what matters</li>
+                  <li>Measuring to ensure updates are a success</li>
+                  <li>And much more!</li>
+              </ul>
+          </div>
+
+          <div id="stay-subs">
+              <label for="usremail">Email address</label>
+              <input type="email" name="usremail" id="usremail" placeholder="email@company.com" required />
+              <button id="btn-signup">Subscribe to monthly newsletter</button>
+          </div>
+      </div>
+
+
+    <!-- Sign-up form end -->
+  </section>
+
+  <!-- Success message start -->
+  <section id="sucess">
+      <div id="sucess-img">
+          <img src="./assets/images/icon-success.svg" />
+      </div>
+
+      <div id="sucess-tks">
+          <h1>Thanks for subscribing!</h1>
+
+          <p>A confirmation email has been sent to <span id="sucess-email"></span>.
+              Please open it and click the button inside to confirm your subscription.</p>
+      </div>
+
+      <div id="sucess-dismis">
+          <button id="btn-dismiss">Dismiss message</button>
+      </div>
+      <!-- Success message end -->
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/eltnas">Elton C. Nascimento</a>.
+  </div>
+<script src="./assets/script/script.js"></script>
+</body>
+</html>
